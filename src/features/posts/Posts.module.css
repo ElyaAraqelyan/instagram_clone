@@ -1,0 +1,45 @@
+.posts{
+    height: 100%;
+    width: 38%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    padding-top: 10%;
+    justify-content: baseline;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 30px;
+}
+
+.item > img {
+    max-width: 468px;
+    max-height: 600px;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+}
+.description > p > strong {
+    margin-right: 6px;
+}
+
+.description > p {
+    font-size: 14px;
+}
+
+.icons > svg {
+    padding: 8px 20px 0 0;
+    font-size: 24px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    gap: 10px
+}

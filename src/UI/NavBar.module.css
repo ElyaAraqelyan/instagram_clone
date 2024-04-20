@@ -1,0 +1,57 @@
+.logo{
+    width: 150px;
+}
+
+.img{
+    margin: -20px 0;
+    position: fixed;
+    top: -10px;
+    left: -10px;
+    border-right: 1px solid rgb(31, 30, 30);
+    padding-right: 7%;
+    z-index: -1;
+}
+
+
+.navbar{
+    position: fixed;
+    top: 110px;
+    bottom: 0;
+    width: 18%;
+    border-right: 1px solid rgb(31, 30, 30);
+    height: 100%;
+    background-color: black;
+}
+
+
+
+a{
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    display: flex;
+    margin: 0 0 10px 14px;
+    font-size: 20px;
+    font-size: 17px;
+    padding: 12px 0 12px 10px;
+    border-radius: 5px;
+}
+
+
+a:not(.img):hover{
+    background-color: rgba(128, 128, 128, 0.3);
+    transition: 0.3s ease;
+}
+a > p{
+    padding-left: 16px;
+}
+
+a > svg {
+    font-size: 22px;
+}
+
+.toggler{
+    width: 17%;
+    position: fixed;
+    bottom: 0;
+}
